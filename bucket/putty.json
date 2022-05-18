@@ -3,7 +3,6 @@
     "description": "PuTTY. PuTTY is a free implementation of SSH and Telnet for Windows and Unix platforms",
     "homepage": "https://www.chiark.greenend.org.uk/~sgtatham/putty/",
     "license": "Freeware",
-    "changelog": "https://www.chiark.greenend.org.uk/~sgtatham/putty/changes.html",
     "architecture": {
         "64bit": {
             "url": "https://the.earth.li/~sgtatham/putty/0.76/w64/putty.zip#/setup.7z",

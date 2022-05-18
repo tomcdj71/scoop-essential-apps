@@ -9,7 +9,6 @@
             "hash": "636ed1e9fa654595a449b280fffbef67c945c94f3730e7bfae43151ab27e9fc8"
         }
     },
-    "pre_download": "Assert-Administrator",
     "pre_install": [
         "$processname = \"GitHubDesktop\"",
         "$process = Get-Process $processname -ErrorAction SilentlyContinue",
