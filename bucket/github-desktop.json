@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://central.github.com/deployments/desktop/desktop/latest/win32?format=msi#/setup.msi_",
+            "url": "https://central.github.com/deployments/desktop/desktop/latest/win32?format=msi",
             "hash": "636ed1e9fa654595a449b280fffbef67c945c94f3730e7bfae43151ab27e9fc8"
         }
     },
