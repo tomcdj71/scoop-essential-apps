@@ -3,7 +3,7 @@
     "description": "Screen recorder",
     "version": "2.7.4",
     "license": "",
-    "url": "https://iweb.dl.sourceforge.net/project/portableapps/CamStudio%20Portable/CamStudioPortable_2.7.4_English.paf.exe#/dl.7z",
+    "url": "https://download2.portableapps.com/portableapps/CamStudioPortable/CamStudioPortable_2.7.4_English.paf.exe?20190321",
     "hash": "md5:21e5e16a4b259110bf1c2e32b5916192",
     "bin": "CamStudioPortable.exe",
     "shortcuts": [
@@ -15,10 +15,10 @@
     "persist": "Data",
     "checkver": {
         "url": "https://portableapps.com/apps/utilities/camstudio_portable",
-        "re": "Version \\s+([\\w\\.]* for Win"
+        "regex": "([\\d.-]+) for Win"
     },
     "autoupdate": {
-        "url": "https://iweb.dl.sourceforge.net/project/portableapps/CamStudio%20Portable/CamStudioPortable_$version_English.paf.exe",
+        "url": "https://download2.portableapps.com/portableapps/CamStudioPortable/CamStudioPortable_$version_English.paf.exe",
         "hash": {
             "url": "https://portableapps.com/apps/utilities/camstudio_portable",
             "regex": "MD5 Hash: +[\\w]{32}"
