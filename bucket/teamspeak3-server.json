@@ -1,5 +1,5 @@
 {
-    "version": "3.9.1",
+    "version": "3.13.6",
     "description": "Supplies mission-critical voice communication solutions to some of the world’s finest companies.",
     "homepage": "https://www.teamspeak.com/",
     "license": {
@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://files.teamspeak-services.com/releases/server/3.9.1/teamspeak3-server_win32-3.9.1.zip#/cosi.7z",
+            "url": "https://files.teamspeak-services.com/releases/server/3.13.6/TeamSpeak3-Server-win64-3.13.6.exe#/cosi.7z",
             "hash": "6ffe2fad26cd68cbd8c23f7361469f7eaba9b267f320daf9cce90ed28e4b3bca",
             "shortcuts": [
                 [
@@ -18,7 +18,7 @@
             ]
         },
         "32bit": {
-            "url": "https://files.teamspeak-services.com/releases/server/3.9.1/teamspeak3-server_win32-3.9.1.zip#/cosi.7z",
+            "url": "https://files.teamspeak-services.com/releases/server/3.13.6/TeamSpeak3-Server-win32-3.13.6.exe#/cosi.7z",
             "hash": "f52cddfd2f1297756afa12d758718b3ee34b88c0e7962fb75985877f480e0d71",
             "shortcuts": [
                 [

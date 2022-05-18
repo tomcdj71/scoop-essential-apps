@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://sumo.dlr.de/releases/1.13.0/sumo-win64-1.13.0.zip",
-            "hash": "0341fba76e154fbee666b0b4bd4727e1c13cd601dd0487eab90a4240934a8495"
+            "hash": "929ad79caa3f06289d66251ee2ca04d313058d2a3c9ac39768441205f72b49e8"
         },
         "32bit": {
             "url": "https://sumo.dlr.de/releases/1.13.0/sumo-win32-1.13.0.zip",
