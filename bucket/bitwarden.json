@@ -1,0 +1,30 @@
+{
+    "version": "1.33.0",
+    "description": "Password management solutions for individuals, teams, and business organizations",
+    "homepage": "https://bitwarden.com",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/bitwarden/desktop/releases/download/v1.33.0/Bitwarden-Portable-1.33.0.exe",
+    "hash": "90890ae32ef5745f7cb741b9a083724a9ad1c2b0b1bc06f0fdd292bcca97f8d6",
+    "pre_install": [
+        "Rename-Item \"$dir\\Bitwarden-Portable-$version.exe\" 'Bitwarden.exe'",
+        "# copy config from non-portable version",
+        "if (!(Test-Path \"$dir\\bitwarden-appdata\\*\") -and (Test-Path \"$env:Appdata\\Bitwarden\")) {",
+        "    if (!(Test-Path \"$dir\\bitwarden-appdata\")) { New-Item \"$dir\\bitwarden-appdata\" -ItemType Directory | Out-Null }",
+        "    Copy-Item \"$env:Appdata\\Bitwarden\\*\" \"$dir\\bitwarden-appdata\\\" -Recurse -Force",
+        "}"
+    ],
+    "bin": "Bitwarden.exe",
+    "shortcuts": [
+        [
+            "Bitwarden.exe",
+            "Bitwarden"
+        ]
+    ],
+    "persist": "bitwarden-appdata",
+    "checkver": {
+        "github": "https://github.com/bitwarden/desktop"
+    },
+    "autoupdate": {
+        "url": "https://github.com/bitwarden/desktop/releases/download/v$version/Bitwarden-Portable-$version.exe"
+    }
+}
