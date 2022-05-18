@@ -3,7 +3,7 @@
     "description": "XAMPP integration",
     "version": "8.1.6-0-VS16",
     "license": "",
-    "url": "https://https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.1.6/xampp-portable-windows-x64-8.1.6-0-VS16-installer.exe#/dl.7z",
+    "url": "https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.1.6/xampp-portable-windows-x64-8.1.6-0-VS16-installer.exe#/dl.7z",
     "hash": "md5:dd6a6c7cdffd3a87b19a14c7bf04b0ae",
     "bin": "XAMPP.exe",
     "shortcuts": [
