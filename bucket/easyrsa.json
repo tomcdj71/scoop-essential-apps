@@ -1,5 +1,5 @@
 {
-    "version": "3.0.8",
+    "version": "v3.0.8",
     "description": "A CLI utility to build and manage a PKI CA",
     "homepage": "https://openvpn.net/easyrsa.html",
     "license": "GPL-2.0-only",
@@ -13,7 +13,7 @@
             "hash": "a39b7b42f499a54891215d5723ee573b7c94d0ceb06aed7c7295f2b0ff1fe639"
         }
     },
-    "extract_dir": "EasyRSA-3.0.8",
+    "extract_dir": "EasyRSA-v3.0.8",
     "post_install": [
         "@\"",
         "setup_path=\"$($dir -replace '\\\\', '/')\"",
@@ -40,10 +40,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/OpenVPN/easy-rsa/releases/download/v$version/EasyRSA-$version-win64.zip"
+                "url": "https://github.com/OpenVPN/easy-rsa/releases/download/v$version/EasyRSA-v$version-win64.zip"
             },
             "32bit": {
-                "url": "https://github.com/OpenVPN/easy-rsa/releases/download/v$version/EasyRSA-$version-win32.zip"
+                "url": "https://github.com/OpenVPN/easy-rsa/releases/download/v$version/EasyRSA-v$version-win32.zip"
             }
         },
         "extract_dir": "EasyRSA-$version"
