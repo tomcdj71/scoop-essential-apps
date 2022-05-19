@@ -1,25 +1,44 @@
 {
-    "version": "0.1.1",
+    "version": "1.4.7.2590",
+    "description": "Cross-platform Apple Music client",
+    "license": "AGPL-3.0-or-later",
+    "homepage": "https://cider.sh",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cidertool/cider/releases/download/v0.1.1/cider_windows_x86_64.zip",
-            "bin": [
-                "cider.exe"
-            ],
-            "hash": "0bf08915290c2d713512e81f76856609948ce5936287a608a99006278d0887ca"
+            "url": "https://github.com/ciderapp/cider-releases/releases/download/v1.4.7.2590/Cider-Setup-winget-1.4.7-beta.exe#/dl.7z",
+            "hash": "sha512:bc9896eaf0baf4c7461ed1b233fa903b44fbd2bc52d4d8e7122f5df46ccddda6c4b8de667b5813e4b8c4f213cd55f4098ff2048b197a428bd85eb2648bec5657",
+            "installer": {
+                "script": "Expand-7zipArchive -Path \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+            }
         }
     },
-    "homepage": "https://cidertool.github.io/cider",
-    "license": "GPL-3.0-or-later",
-    "description": "Submit your builds to the Apple App Store in seconds",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\" -Recurse -Force",
+    "shortcuts": [
+        [
+            "Cider.exe",
+            "Cider"
+        ]
+    ],
     "checkver": {
-        "github": "https://github.com/cidertool/cider",
-        "regex": "v([\\w.]+)\\.zip"
+        "script": [
+            "$url = 'https://api.github.com/repos/ciderapp/cider-releases/releases'",
+            "$content = (Invoke-WebRequest $url).Content",
+            "if (!($content -match 'Cider Version (?<stem>[\\d.]+) - Build (?<build>\\d+) \\(main\\)')) {",
+            "   break",
+            "}",
+            "$vermatches = $matches",
+            "Write-Output \"Version: $($vermatches.stem).$($vermatches.build) | Type: beta\""
+        ],
+        "regex": "Version: ((?<stem>[\\d\\.]{5})\\.(?<build>\\d+)) \\| Type: (?<type>.+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cidertool/cider/releases/download/v$version/cider_windows_x86_64.zip"
+                "url": "https://github.com/ciderapp/cider-releases/releases/download/v$version/Cider-Setup-winget-$matchStem-$matchType.exe#/dl.7z",
+                "hash": {
+                    "url": "$baseurl/latest.yml",
+                    "regex": "sha512:\\s+$base64"
+                }
             }
         }
     }
