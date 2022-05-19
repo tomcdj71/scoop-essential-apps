@@ -15,7 +15,7 @@
     "persist": "Data",
     "checkver": {
         "url": "https://portableapps.com/apps/development/xampp",
-        "re": "Version \\s+([\\w\\.]* for Win"
+        "re": "([\\d.-]+) for Win"
     },
     "autoupdate": {
         "url": "https://pilotfiber.dl.sourceforge.net/project/portableapps/XAMPP%20Launcher/XAMPP_$version.paf.exe",
