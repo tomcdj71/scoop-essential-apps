@@ -6,7 +6,7 @@
         "identifier": "Proprietary",
         "url": "https://www.epicgames.com/store/en-US/eula"
     },
-    "url": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-13.0.0.msi#/setup.msi_",
+    "url": "https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-13.3.0.msi",
     "hash": "aa81f2cc1813c01bc43ecc82380e0ddbc5f6d39e8bf6e3680e92354393930643",
     "notes": "Make sure your system has the DirectX Runtime installed.",
     "pre_install": [
