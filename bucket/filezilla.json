@@ -1,19 +1,19 @@
 {
-    "version": "3.59.0",
+    "version": "3.60.1",
     "description": "Fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.",
     "homepage": "https://filezilla-project.org/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.filezilla-project.org/client/FileZilla_3.59.0_win64.zip",
-            "hash": "sha512:058e3b69cb7c5f297881df234d4d8db036a816075a64c66bea4da2054bd33074cbf6047d8c8558bc8b8000e2a9cd1e030af0a1e55fe5f01a23febac6987b1e07"
+            "url": "https://download.filezilla-project.org/client/FileZilla_3.60.1_win64.zip",
+            "hash": "sha512:4e470e6a81ba4f4c2b4f590253cefb333ef414116900344ce1ef37256ac5686947ee0bab4a4201ec8e772641903fd4882107fb4c55db1ccc50e01481b29ff92f"
         },
         "32bit": {
-            "url": "https://download.filezilla-project.org/client/FileZilla_3.59.0_win32.zip",
-            "hash": "sha512:a5303416f553b23ac7f49a60cf6416cbdf25503d8bace31357d106ab898e056d0a5adbbcd10605023fbccd9e8f0f3b8ae79ab3067e7936acf4948408d9da9fcd"
+            "url": "https://download.filezilla-project.org/client/FileZilla_3.60.1_win32.zip",
+            "hash": "sha512:f71826ceb6df10482ec78c58ca0d448b885abeb0edb1f6cf1fd414df70f8008460b5d3759a50260056e4cf93c931b8274b4e64f606a534df8671821105009281"
         }
     },
-    "extract_dir": "FileZilla-3.59.0",
+    "extract_dir": "FileZilla-3.60.1",
     "pre_install": [
         "@'",
         "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\" ?>",
