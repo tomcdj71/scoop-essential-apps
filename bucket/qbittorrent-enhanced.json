@@ -1,16 +1,16 @@
 {
-    "version": "4.6.1.10",
+    "version": "4.6.2.10",
     "description": "qBittorrent BitTorrent client with anti-leech enhancements",
     "homepage": "https://github.com/c0re100/qBittorrent-Enhanced-Edition",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.6.1.10/qbittorrent_enhanced_4.6.1.10_Qt6_x64_setup.exe#/dl.7z",
-            "hash": "a4785774f96419f3c6b787874c66d58197ad4a211def5f1a20f19beb73b3dc43"
+            "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.6.2.10/qbittorrent_enhanced_4.6.2.10_Qt6_x64_setup.exe#/dl.7z",
+            "hash": "96ab5b91b64881b00677de3bad3f6c6568b06679dc53ccbf8859bc201c6ad21a"
         },
         "32bit": {
-            "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.6.1.10/qbittorrent_enhanced_4.6.1.10_setup.exe#/dl.7z",
-            "hash": "722c98d1cc63369102e3825df644600e43c8db94d3ce3ecd88ab2c86dac76415"
+            "url": "https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-4.6.2.10/qbittorrent_enhanced_4.6.2.10_setup.exe#/dl.7z",
+            "hash": "e71d54052497223fe01cb02d7b5ad1f50e71f4a85e96cc40b1d0d2df63dd4d07"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst.exe\" -Force -Recurse",
