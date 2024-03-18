@@ -1,5 +1,5 @@
 {
-    "version": "3.6.1",
+    "version": "3.6.2",
     "description": "Supplies mission-critical voice communication solutions to some of the world’s finest companies.",
     "homepage": "https://www.teamspeak.com/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://files.teamspeak-services.com/releases/client/3.6.1/TeamSpeak3-Client-win64-3.6.1.exe#/cosi.7z",
-            "hash": "3b6cf0a99f1686a53c3afc15e502593f50e3822a86dde400fee9ba38242c9532",
+            "url": "https://files.teamspeak-services.com/releases/client/3.6.2/TeamSpeak3-Client-win64-3.6.2.exe#/cosi.7z",
+            "hash": "44ef7e071d6a5be10ada913a3d40996e202a2b02d3353746ba52dc98771f0604",
             "shortcuts": [
                 [
                     "ts3client_win64.exe",
@@ -18,8 +18,8 @@
             ]
         },
         "32bit": {
-            "url": "https://files.teamspeak-services.com/releases/client/3.6.1/TeamSpeak3-Client-win32-3.6.1.exe#/cosi.7z",
-            "hash": "0a11252af7fbe2022386418539f9f1218f11c9834177e5580b4d77c7f9f131db",
+            "url": "https://files.teamspeak-services.com/releases/client/3.6.2/TeamSpeak3-Client-win32-3.6.2.exe#/cosi.7z",
+            "hash": "d4614867851d6d0e90dc0709eccefcf966a42b231fb55e6abe446d9a2d8cc657",
             "shortcuts": [
                 [
                     "ts3client_win32.exe",
