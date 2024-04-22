@@ -1,13 +1,13 @@
 {
-    "version": "3.4.2",
+    "version": "3.5.0",
     "description": "An easy-to-use, multi-track audio editor and recorder",
     "homepage": "https://www.audacityteam.org",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://fossies.org/windows/misc/audacity-win-3.4.2-64bit.zip",
-            "hash": "0df85eda8b79ebcceca673a7f7dec32c4fcb4625342b91995217f3124b57f7d4",
-            "extract_dir": "audacity-win-3.4.2-64bit"
+            "url": "https://fossies.org/windows/misc/audacity-win-3.5.0-64bit.zip",
+            "hash": "45d471720437bccfde2cdaf27fae8e83ef2d5f3d245b14a7b4e29ef8988e3c14",
+            "extract_dir": "audacity-win-3.5.0-64bit"
         }
     },
     "pre_install": [
