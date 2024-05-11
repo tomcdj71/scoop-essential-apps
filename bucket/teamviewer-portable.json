@@ -1,13 +1,13 @@
 {
-    "version": "15.53.6",
+    "version": "13.2.5287",
     "description": "Remote control, desktop sharing, online meetings, web conferencing and file transfer between computers",
     "homepage": "https://www.teamviewer.com",
     "license": {
         "identifier": "Shareware",
         "url": "https://www.teamviewer.com/en/eula/"
     },
-    "url": "https://download.teamviewer.com/download/version_15x/TeamViewerPortable.zip",
-    "hash": "ec1f07adbc0f5c2b5cff03d5c5b9b197d9b62a482a04c7c3d47238f779db55e3",
+    "url": "https://download.teamviewer.com/download/version_13x/TeamViewerPortable.zip",
+    "hash": "f6fb3d68bc68b51f545882575d47c0026b9680f7981f7a77c459d11bbce69415",
     "bin": "teamviewer.exe",
     "shortcuts": [
         [
