@@ -1,5 +1,5 @@
 {
-    "version": "8.0.20",
+    "version": "9.0.10",
     "description": "Microsoft .NET 5.0 Desktop Runtime",
     "homepage": "https://dotnet.microsoft.com/download/dotnet",
     "license": {
@@ -9,12 +9,12 @@
     "notes": "You can now remove this installer with 'scoop uninstall windowsdesktop-runtime'",
     "architecture": {
         "64bit": {
-            "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/8.0.20/windowsdesktop-runtime-8.0.20-win-x64.exe",
-            "hash": "713e77616f7af4adc3e76eb6daa1ac97ced643ecb36bae474c7e2dd79b81dfff"
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/9.0.10/windowsdesktop-runtime-9.0.10-win-x64.exe",
+            "hash": "35bbb4850edbb0bf713e588b1d7026fc7cc1208331b2b5d9b3a33f27940d5cef"
         },
         "32bit": {
-            "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/8.0.20/windowsdesktop-runtime-8.0.20-win-x86.exe",
-            "hash": "4dadc06c15d98aa58d201e786beb53d8cf8f6ac8da57c30f2b803c1d55a6c42b"
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/9.0.10/windowsdesktop-runtime-9.0.10-win-x86.exe",
+            "hash": "be7ce3493e6a699312e345ad932acd0413b158b048eccdb94df22687a3b213ae"
         }
     },
     "pre_install": "if (!(is_admin)) { throw 'Admin privileges are required.' }",
